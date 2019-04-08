@@ -21,3 +21,23 @@ public class Main extends Application {
         launch(args);
     }
 }
+/**
+ * This is the main class of the reservation manager
+ * Currently this class contains some dummy users and some dummy reservations.
+ * Finally, after creating them, the main method of this class prints them out.
+ *
+ * Feel free to run the main method at any time. :)
+ */
+
+
+/**
+ * @param args not used
+ *
+ * this method starts the application :)
+ */
+
+
+//creating the users
+//creating reservations
+//adding all the reservations to a list
+//printing out the reservations

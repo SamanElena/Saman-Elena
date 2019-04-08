@@ -2,10 +2,16 @@ package org.loose.fis.reservation.manager.model;
 
 import java.util.Objects;
 import java.util.UUID;
+// optional field (only if users will require it)
+private String nickName;
+// field that says if the user owns a company that you can get reservations to
+private boolean isOwner;
+
 
 public class User {
     private String id;
     private String firstName;
+
     private String lastName;
     private String nickName;
     private int age;
